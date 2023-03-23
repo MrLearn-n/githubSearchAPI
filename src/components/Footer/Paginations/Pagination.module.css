@@ -1,0 +1,32 @@
+.pagination_list {
+    display: flex;
+    padding-left: 0px;
+    justify-content: center;
+}
+
+.pagination_item {
+    list-style-type: none;
+    padding: 10px 20px;
+    background: #FFFFFF;
+    border: 1px solid #A2A3A4;
+    cursor: pointer;
+    transition: 0.2s ease;
+}
+
+.pagination_item:hover {
+    background: #00A3FF;
+    transition: 0.2s ease; 
+}
+
+.pagination_item:hover > .pagination_link {
+    color: #FFFFFF;
+} 
+
+.pagination_link {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    color: #000;
+    text-decoration: none;
+}
+

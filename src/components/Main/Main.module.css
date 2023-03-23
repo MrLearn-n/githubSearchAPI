@@ -1,0 +1,17 @@
+.main_title {
+    font-weight: 400;
+    font-size: 28px;
+    line-height: 33px;
+    text-align: center;
+    margin-top: 62px;
+}
+
+.main_collection {
+    display: grid;
+    justify-content: center;
+    grid-template-rows: 218px 218px;
+    grid-template-columns: 440px 440px 440px;
+    row-gap: 23px;
+    column-gap: 24px;
+    margin: 27px 0px;
+}

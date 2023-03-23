@@ -1,0 +1,73 @@
+.card_content {
+    padding: 7px 15.04px 13px 15.04px;
+    background: #FFFFFF;
+    border: 1px solid #A2A3A4;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+.card_content__name {
+    margin: 0px 0px 18px 0px;
+    display: inline-block;
+}
+
+.card_content__name > a {
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 23px;
+    color: #000;
+    text-decoration: none;
+    transition: 0.2s all;
+}
+
+.card_content__name > a:hover {
+    color: #00A3FF;
+    transition: 0.2s all;
+}
+
+.card_content__auth {
+    display: flex;
+    align-items: center;
+}
+
+.card_content__auth___authorImg > img {
+    max-width: 50px;
+    max-height: 50px;
+    border-radius: 60%;
+}
+
+.card_content__auth___authorName > a {
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 21px;
+    text-decoration: none;
+    color: #000;
+    margin: 0px 0px 0px 26.47px;
+    transition: 0.2s all;
+}
+
+.card_content__auth___authorName > a:hover {
+    color: #00A3FF;
+    transition: 0.2s all;
+}
+
+.card_content__counts {
+    display: flex;
+    align-items: center;
+}
+
+.counts_watch,
+.counts_star {
+    display: flex;
+    align-items: center;
+}
+
+.counts_watch {
+    margin-left: 25px;
+}
+
+.valueCount {
+    margin-left: 18.87px;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+}

@@ -1,0 +1,22 @@
+.commentBox  {
+    display: flex;
+    align-items: center;
+}
+
+.commentBox_input {
+    outline: none;
+    padding: 13px 13.79px 16px 13.79px;
+    border: 1px solid #A2A3A4;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 21px;
+}
+
+.iconPen {
+    cursor: pointer;
+    width: 40px;
+    height: 40px;
+    padding: 9px 12.67px 8px 11.26px;
+    background-color: #00A3FF;
+    color: #fff;
+}
