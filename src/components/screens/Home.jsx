@@ -63,13 +63,17 @@ export default function Home() {
                 data = {currentCountry} 
                 loading = {loading} 
             />
-            <Footer
+            {dataItems && 
+
+                <Footer
                 paginate = {paginate}
                 totalCountries = {dataItems.length}
                 counterPerPage = {counterPerPage}
                 nextPage = {nextPage}
                 prevPage = {prevPage}
-            />            
+                />   
+
+            }         
         </div>
     )
 }
