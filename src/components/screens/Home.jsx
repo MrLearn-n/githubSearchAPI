@@ -8,8 +8,12 @@ import Footer from '../Footer/Footer';
 
 export default function Home() {
 
-    const [dataItems, setDataItems] = useState([]);
-    const [inputValue, setInputValue] = useState('');
+    const [dataItems, setDataItems] = useState(() => {
+        const savedValue = localStorage.getItem('searchResults');
+        const parseValue = JSON.parse(savedValue);
+        return parseValue || "";
+    });
+    const [inputValue, setInputValue] = useState("");
     const [loading, setLoading] = useState(false);
     
 
@@ -20,10 +24,11 @@ export default function Home() {
         setInputValue(event.target.value);
     }   
 
-    // useEffect(() => {
-    //     localStorage.setItem('value', JSON.stringify(inputValue))
-    // }, [inputValue])
+    useEffect(() => {
+        localStorage.setItem('searchResults', JSON.stringify(dataItems))
+    }, [dataItems])
 
+    
     ///Индексация for пагинаtion
 
     const lastCountryIndex = currentPage * counterPerPage;
