@@ -14,7 +14,7 @@ export default function Paginations({counterPerPage, totalCountries, paginate}) 
             <ul className={style.pagination_list}>
                 {pageNumbers.map(number => (
                 <li className={style.pagination_item} key={number} onClick={() => paginate(number)}>
-                    <a href={() => false} className={style.pagination_link}>
+                    <a className={style.pagination_link}>
                         {number}
                     </a>
                 </li>
