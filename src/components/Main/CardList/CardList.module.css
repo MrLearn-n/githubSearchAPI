@@ -50,9 +50,11 @@
     transition: 0.2s all;
 }
 
-.card_content__counts {
+.card_content__info,
+.card_content__info___counts {
     display: flex;
     align-items: center;
+    margin: 5px 0px;
 }
 
 .counts_watch,
@@ -63,6 +65,21 @@
 
 .counts_watch {
     margin-left: 25px;
+}
+
+.btnInfo {
+    padding: 10px 8px;
+    color: #FFFFFF;
+    background: #00A3FF;
+    text-decoration: none;
+    margin-left: 40px;
+    border-radius: 6px;
+    transition: 0.2s all;
+}
+
+.btnInfo:hover {
+    background: rgb(0, 65, 108);
+    transition: 0.2s all;
 }
 
 .valueCount {
