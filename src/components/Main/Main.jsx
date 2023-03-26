@@ -3,7 +3,6 @@ import CardList from './CardList/CardList';
 import style from './Main.module.css';
 
 export default function Main({data, loading}) {
-    
 
     if(loading) {
         return <h2 className={style.main_title}>Поиск проектов...</h2>
@@ -18,7 +17,8 @@ export default function Main({data, loading}) {
                             name = {name} 
                             img = {owner.avatar_url} 
                             auth = {owner.login} 
-                            key = {id} 
+                            key = {id}
+                            index = {owner.id}
                             countWatch = {watchers_count} 
                             countStar = {stargazers_count}
                             linkRepo = {html_url}

@@ -9,8 +9,8 @@
 .main_collection {
     display: grid;
     justify-content: center;
-    grid-template-rows: 218px 218px;
-    grid-template-columns: 440px 440px 440px;
+    grid-template-rows: 100%;
+    grid-template-columns: repeat(3, 440px);
     row-gap: 23px;
     column-gap: 24px;
     margin: 27px 0px;
