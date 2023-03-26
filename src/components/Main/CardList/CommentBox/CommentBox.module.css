@@ -1,6 +1,7 @@
 .commentBox  {
     display: flex;
     align-items: center;
+    justify-content: space-between;
 }
 
 .commentBox_input {
@@ -10,6 +11,7 @@
     font-weight: 400;
     font-size: 18px;
     line-height: 21px;
+    width: 100%;
 }
 
 .iconPen {
