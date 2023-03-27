@@ -1,0 +1,38 @@
+p {
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 23px;
+}
+
+.project_info {
+    display: flex;
+    align-items: center;
+    padding: 40px 0px;
+}
+
+.project_info__img > img {
+    border-radius: 60%;
+    width: 60%;
+}
+
+.project_info__text___counts {
+    display: flex;
+    align-items: center;
+}
+
+.counts_watch,
+.counts_star {
+    display: flex;
+    align-items: center;
+}
+
+.counts_watch {
+    margin-left: 25px;
+}
+
+.valueCount {
+    margin-left: 18.87px;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+}
