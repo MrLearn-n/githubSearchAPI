@@ -16,7 +16,6 @@ export default function AboutProject() {
     });
 
 
-    console.log(value);
 
     return (
         <div className='project'>
@@ -30,7 +29,8 @@ export default function AboutProject() {
                                 id, 
                                 language, 
                                 watchers_count, 
-                                stargazers_count
+                                stargazers_count,
+                                html_url
                             }) => {
                                 
                             if(owner.id == paramValueID) {
@@ -44,6 +44,7 @@ export default function AboutProject() {
                                         lang = {language}
                                         countWatch = {watchers_count}
                                         countStar = {stargazers_count}
+                                        url = {html_url}
                                     />
                                 )
                             }
